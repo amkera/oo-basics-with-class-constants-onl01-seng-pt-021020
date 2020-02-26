@@ -1,5 +1,6 @@
 class Shoe
   attr_accessor :color, :size, :material, :condition
+  #why don't we need a brand reader method? 
   
   
   BRANDS = []
