@@ -1,6 +1,6 @@
 class Book
   attr_accessor :author, :page_count #both reader and writer methods
-  attr_reader :title, :genre #just a reader. we don't need to write this method, just need to read it. 
+  attr_reader :title, :genre 
   
   GENRES = []
 
